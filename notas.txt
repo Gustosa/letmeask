@@ -1,0 +1,42 @@
+yarn start
+
+React = biblioteca que permite criar interfaces interativas.
+React é dividido em três conceitos: componente, propriedade e estado;
+
+Firebase = banco de funcionalidades comuns (autenticação e bd por exemplo);
+
+Na SPA(Single Page Application), o servidor retorna os dados para o cliente em forma de json;
+
+html dentro do js = jsx(o x vem do xml(linguagem base do html));
+html dentro do typescript = tsx;
+
+Componentes = pedaços isolados de código que juntos formam uma aplicação. 
+Dentro do react, componente é uma função que retorna um html. Tudo é componente. Componentes sempre começam com letra maiúscula, assim o editor não confunde componentes e elementos html;
+
+exemplo de Propriedade = <Button text='Button'/>(text é a propriedade, e Button é um type que eu mesmo defino), são atributos que podem receber QUALQUER tipo de infromação do js, quem define oque vai ser a propriedade e sua respectiva tipagem sou eu.
+
+Conteúdo de um componente se chama children(que nem aquele h1 direto no código);
+
+Estado = informação contida dentro de um componente que não permanece constante durante o uso da aplicação;
+
+Imutabilidade = A partir do momento em que uma variável foi criada dentro de um estado de um componente, 
+ela não sofre alterações, mas sim cria uma nova informação baseada na anterior;
+ 
+Contexto = forma de compartilhar informações com mais de um componente;
+
+Hook = funções criadas para reaproveitar funcionalidades que serão utilizadas em vários componentes e que não tem funções específicas para um componente específico(como o hook feito para compartilhar o contexto do user(useAuth) e sempre começa com use, o useEffect, por exemplo, é um hook do próprio react)
+
+imagens(e suponho que vídeos e afins) precisam ser importados para usar-los no react;
+
+react modal pode ser interessante no projeto
+
+style componentes pode ser interessante no projeto
+
+
+A prática não nasce da teoria, a teoria nasce da prática. Que lindo, dá pra levar pra vida, obrigado Diego Rocketseat
+
+pesquisar sobre context e hooks, dar uma recapitulada no node(principalmente na questão de services e controllers)
+
+será que os afazeres da vida adulta te sugam que nem os de agora? deve ser muito melhor ter sua própria rotina, pelo menos dentro de casa 
+
+fucking fucker motherfucker fucker

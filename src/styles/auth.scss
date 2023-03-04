@@ -1,0 +1,128 @@
+#page-auth{
+    display: flex;
+    align-items: stretch;
+    height: 100vh;
+}
+
+aside{
+    flex: 7; //número de unidades flex(?) que vai ocupar
+
+    background: #835AFD;
+    color: #FFF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 128px 80px;
+}
+
+main{
+    flex: 8; //número de unidades flex(?) que vai ocupar
+    padding: 8 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 320px;
+        align-items: stretch;
+        text-align: center;
+    
+        > img{ // ">" pega a primeira imagem?
+            align-self: center;
+        }
+
+        h2{
+            font-size: 24px;
+            margin: 64px 0 24px;
+            font-family: "Poppins", sans-serif;
+        }
+    
+        form{
+            input{
+                height: 50px;
+                border-radius: 8px;
+                padding: 8 16 px;
+                background: #FFF;
+                border: 1px solid #A8A8B3;
+            }
+    
+            button{
+                margin-top: 16px;
+            }
+    
+            input, button{
+                width: 100%;
+            }
+        }
+
+        p{
+            font-size: 14px;
+            color: #737386;
+            margin-top: 16px;
+
+            a{
+                color: #E559F9;
+            }
+        }
+    }
+    
+    .create-room{
+        margin-top: 64px;
+        height: 50px;
+        border-radius: 8px;
+        font-weight: 500;
+
+        background: #ea4335;
+        color: #FFF;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        cursor: pointer;
+        border: 0;
+        transition: filter 0.2s; //cria um gradiente no intervalo especificado
+
+        img{
+            margin-right: 8px;
+        }
+
+        &:hover{
+            filter: brightness(0.9); //diminúi a luminosidade 
+        }
+    }
+
+    .separator{
+        font-size: 14px;
+        color: #A8A8B3;
+        margin: 32px 0;
+        display: flex;
+        align-items: center;
+
+        &::before{
+            content: "";
+            flex: 1;
+            height: 1px;
+            background: #A8A8B3;
+            margin-right: 16px;
+        }
+
+        &::after{
+            content: "";
+            flex: 1;
+            height: 1px;
+            background: #A8A8B3;
+            margin-left: 16px;
+        }
+    }
+}
+
+
+
+
+
